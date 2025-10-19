@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Overflow</title>
+    <style>
+        .container {
+            width: 200px;
+            height: 100px;
+            border: 2px solid black;
+            margin: 20px;
+        }
+        .hidden { overflow: hidden; }
+        .scroll { overflow: scroll; }
+        .auto { overflow: auto; }
+    </style>
+</head>
+<body>
+    <h2>Overflow приклади</h2>
+
+    <div class="container hidden">
+        Дуже довгий текст, який виходить за межі контейнера. Дуже довгий текст, який виходить за межі контейнера.
+    </div>
+
+    <div class="container scroll">
+        Дуже довгий текст, який виходить за межі контейнера. Дуже довгий текст, який виходить за межі контейнера.
+    </div>
+
+    <div class="container auto">
+        Дуже довгий текст, який виходить за межі контейнера. Дуже довгий текст, який виходить за межі контейнера.
+    </div>
+</body>
+</html>
